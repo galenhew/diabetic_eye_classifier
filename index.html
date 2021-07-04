@@ -1,0 +1,96 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Diabetes eye classifier</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            
+          </div>
+
+          <div class="col-8">
+          
+              <div id="loader">
+                <div class="spinner-grow" role="status" style="width: 12rem; height: 12rem;">
+                  <span class="sr-only">Loading...</span>
+                </div> 
+                <p>Loading trained model...</p>
+              </div>
+              <div id="classifier">
+                <div class="heading">
+                  <h1>Diabetes Retinopathy Classifier</h1>
+                </div>
+
+
+                <h5> A list of images are provided on for you to predict on. 
+                    Simply click the eyeball and the predict button. 
+                    You may also upload your stash of eyeballs :)</h5>
+          
+                <div class="row">
+                  <div class="list-group" id= 'list-of-eyeballs'>
+                    <button type='submit' value= 'img/eye_0.png' class="list-group-item list-group-item-action active" aria-current="true" onclick = 'myFunction(this.value)'>
+                      Normal eye 
+                    </button>
+                    <button type='submit' value= 'img/eye_1.png' class="list-group-item list-group-item-action" aria-current="true" onclick = 'myFunction(this.value)'>
+                      Stage 1 condition
+                    </button>
+                    <button type='submit' value= 'img/eye_2.png' class="list-group-item list-group-item-action" aria-current="true" onclick = 'myFunction(this.value)'>
+                      Stage 2 condition
+                    </button>
+                    <button type='submit' value= 'img/eye_3.png' class="list-group-item list-group-item-action" aria-current="true" onclick = 'myFunction(this.value)'>
+                      Stage 3 condition
+                    </button>
+                    <button type='submit' value= 'img/eye_4.png' class="list-group-item list-group-item-action" aria-current="true" onclick = 'myFunction(this.value)'>
+                      Stage 4 condition
+                    </button>
+                  </div>
+
+
+                  <div class="col-sm">
+                      <div class="card" style="width: 18rem;">
+                          <img id= 'img' src="img/eye_0.png" width=375 height=375 class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title" id="image-card-title" >An eyeball</h5>
+                            <p class="card-text" id='image-card-text' > Default image uploaded. Click the "Predict" button to see whether it has diabetic blindness symptoms. </p>
+                          </div>
+                        </div>
+                        <div class="col-sm button-row">
+                          <label class="btn btn-outline-primary" for="my-file-selector">
+                              <input id="my-file-selector" type="file" class="d-none" 
+                                onchange="changeImage()" accept="image/jpeg, image/png">
+                              Upload New Picture
+                          </label>
+                          <label class="btn btn-primary class-b" for="predict">
+                              <input id="predict" type="button" class="d-none" >
+                              Predict
+                          </label>
+                        </div>
+                  </div>
+                </div>
+                <div class="row">
+
+                </div>
+              </div>
+
+          </div>
+
+          <div class="col">
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
