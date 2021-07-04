@@ -1,7 +1,6 @@
 # diabetic_eye_classifier
-Classify diabetic blindess eyes image.
-This project is based on the Kaggle 
-View the jupyter notebook to see how the model was trained. 
+This model is able to classify whether the eye is likely to have blindness from diabetes.
+This project is based on the Kaggle APTOS 2019 Competition. View the jupyter notebook to see how the model was trained. 
 
 ![](img/diabetic_eye_overview.jpg) 
 
