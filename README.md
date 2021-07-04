@@ -14,6 +14,7 @@ This project is based on the Kaggle APTOS 2019 Competition. View the jupyter not
 
 ## Getting Started
 - `git clone https://github.com/galenhew/diabetic_eye_classifier`
+- cd into dist folder
 - `python3 -m http.server`
 - Open your browser to [localhost:8000](http://localhost:8000/)
 

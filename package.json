@@ -1,0 +1,23 @@
+{
+  "name": "tfjs-diabetic-blindness",
+  "version": "1.0.0",
+  "description": "This model is able to classify whether the eye is likely to have blindness from diabetes. This project is based on the Kaggle APTOS 2019 Competition. View the jupyter notebook to see how the model was trained.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galenhew/diabetic_eye_classifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galenhew/diabetic_eye_classifier/issues"
+  },
+  "homepage": "https://github.com/galenhew/diabetic_eye_classifier",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
