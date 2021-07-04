@@ -2,7 +2,8 @@
 This model is able to classify whether the eye is likely to have blindness from diabetes.
 This project is based on the Kaggle APTOS 2019 Competition. View the jupyter notebook to see how the model was trained. 
 
-![](img/diabetic_eye_overview.jpg) 
+## Website preview
+![](img/eye_preview.png) 
 
 ## Places for improvement (to-dos)
 - to make multi-class classifier for different disease stage. Due to lack of pictures, can use augmentation libraries like albumentations
