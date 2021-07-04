@@ -3,7 +3,7 @@ Classify diabetic blindess eyes image.
 This project is based on the Kaggle 
 View the jupyter notebook to see how the model was trained. 
 
-![](img/diabetes_eye1.png) 
+![](img/diabetic_eye_overview.jpg) 
 
 ## Places for improvement (to-dos)
 - to make multi-class classifier for different disease stage. Due to lack of pictures, can use augmentation libraries like albumentations
