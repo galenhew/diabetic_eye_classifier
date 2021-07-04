@@ -1,4 +1,4 @@
-# Tensorflow.js
+# diabetic_eye_classifier
 Classify diabetic blindess eyes image.
 This project is based on the Kaggle 
 View the jupyter notebook to see how the model was trained. 
@@ -28,4 +28,3 @@ View the jupyter notebook to see how the model was trained.
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-# diabetic_eye_classifier
